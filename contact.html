@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- importing my css file-->
+       <link rel="stylesheet" href="styles.css">
+
+       <!--font barlow condensed, this is where my custom google font is imported.-->
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+
+        <!--navbar-->
+
+      <div class="topnav-alt">
+          <a class="active" href="purpose.html">Purpose</a>
+          <a class="active" href="ammohub.html">Ammo Chart</a>
+          <a class="active" href="index.html">Home</a>
+      </div>
+
+      <!-- for the contact form -->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Remove unneeded scrollbar -->
+
+      <style>body {overflow-y: hidden; }</style>
+
+    </head>
+
+    <body>
+
+        <!-- main heading -->
+
+        <p class="contact-heading">Contact</p>
+
+        <!--direct contact heading-->
+
+        <p class="contact-heading2">Direct Contact:</p>
+
+        <!-- Contact form -->
+        <div class="formdiv">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter name..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter email...">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+        <!-- direct contact info -->
+
+        <p class="contact-directtext">Phone Number: 029 129 4009</p>
+        <p class="contact-directemail">Email: tylerjlay22@outlook.co.nz</p>
+
+    </body>
+</html>

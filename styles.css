@@ -1,0 +1,343 @@
+
+/*navbar*/
+
+  /* text in navbar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  /* hover navbar colour */
+  .topnav a:hover {
+    filter:invert(100%)
+  }
+  
+  /* stock colour navbar*/
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+
+/* ALTERNATIVE NAV BAR */
+
+  /* text in navbar */
+  .topnav-alt a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    top: -4vw;
+    right: 2vw;
+  }
+  
+  /* hover navbar colour */
+  .topnav-alt a:hover {
+    filter:invert(100%)
+  }
+  
+  /* stock colour navbar*/
+  .topnav-alt a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+
+
+  /* background colour/gradient */
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right bottom, #4a4a4a 50%, #82755e 50%);
+    overflow-y: scroll;
+    overflow-x: hidden;   
+}
+
+/* link no styles */
+
+a:link {
+  text-decoration: none;
+}
+
+
+/* Index classes */
+
+.index-heading {
+    font-size: 5rem;  
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    margin-top: 8vw;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.index-heading-div {
+  width: 43.75rem;
+  overflow: auto;
+  overflow-wrap: normal;
+}
+
+.indexbutton {
+  font-size: 3vw;
+  font-family:'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 28px;
+  padding: 14px 16px;
+}
+
+.indexbutton:hover {
+  filter: invert(100%);
+}
+
+.indexbuttondiv {
+  margin:auto;
+  text-align: center;
+  margin-top: 4vw;
+}
+
+.index-image {
+  position:absolute;
+  right: 2vw;
+  top: 22vw;
+  animation-name: gunsimage;
+  animation-duration: 2s;
+}
+/* animation */
+
+@keyframes gunsimage {
+  from  {top: 30vw;}
+  to {top: 22vw;}
+}
+
+/* responsiveness*/
+
+@media (max-width: 1024px) {
+  .index-image
+  {
+    display: none;
+  }
+}
+
+
+/* Iframe AmmoHub.html */
+
+.ammohub-iframe {
+  width: 80vw;
+  height: 30vw;
+  overflow: scroll;
+}
+
+.iframe-div {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  top: 4vw;
+}
+
+/* title ammohub */
+
+.ammohubp {
+  font-size: 5vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* replacement nav bar */
+
+/* home button on ammohub.html */
+
+.home-button {
+  font-size: 2vw;
+  font-family:'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 14px 16px;
+  position: absolute;
+  top: 1vw;
+  right: 19vw;
+}
+
+/* change colour on hover */
+
+.home-button:hover {
+  filter: invert(100%);
+}
+
+/* contact button on ammohub.html */
+
+.contact-button {
+  font-size: 2vw;
+  font-family:'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 14px 16px;
+  position: absolute;
+  top: 1vw;
+  right: 10vw;
+}
+
+/* change colour on hover */
+.contact-button:hover {
+  filter: invert(100%);
+}
+
+/* about me button on ammohub.html */
+
+.aboutme-button {
+  font-size: 2vw;
+  font-family:'Barlow Condensed', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 14px 16px;
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+
+}
+
+/* change colour on hover */
+
+.aboutme-button:hover {
+  filter: invert(100%);
+}
+
+
+
+/* purpose.html */
+
+/* purpose.html title */
+p.purpose-title {
+  font-size: 5vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  left: 3vw;  
+  width: 35vw;
+  top: -4vw;
+}
+
+/* purpose.html body text */
+
+p.purpose-text {
+  font-size: 2vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  left: 3vw;
+  width: 50vw;
+
+}
+
+/* contact page */
+
+/*contact page heading */
+.contact-heading {
+  font-size: 5vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  width: 35vw;
+  left: 3vw;  
+  top: -4vw;
+}
+
+/* contact form div */
+.formdiv {
+  border-radius: 5px;
+  background-color: #969696;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 20px;
+  position: relative;
+  top: -6vw;
+  width: 50vw;
+  left: 1vw;
+}
+
+/* input for form/formatting */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* button styling */
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* button hover */
+
+input[type=submit]:hover {
+  filter:invert(100);
+}
+
+/* direct contact heading */
+
+.contact-heading2 {
+  font-size: 4vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  float: right ;
+  top: -10vw;
+  left: -20vw; 
+  width: 20vw;
+
+}
+
+/* direct contact PN */
+
+.contact-directtext {
+  font-size: 3vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  float: right;
+  width: 40vw;
+  top: -30vw;
+}
+
+/* direct contact email */
+
+.contact-directemail {
+  font-size: 3vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  float: right;
+  width: 40vw;
+  top: -25vw; 
+  left: 40vw;
+}
