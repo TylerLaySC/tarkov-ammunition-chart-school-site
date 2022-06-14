@@ -245,7 +245,32 @@ p.purpose-text {
   color: white;
   left: 3vw;
   width: 50vw;
+}
 
+/* disclaimer text */
+
+.disclaimer {
+  font-size: 1vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  
+  top: 8.5vw;
+  width: 64vw;
+}
+
+/* video credit text */
+
+.videocredit {
+  font-size: 1vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  color: white;
+  text-align: center;
+  float: right;
+  left: 13vw;
+  top: -23vw;
+  width: 100vw;
 }
 
 /* youtube video iframe */
